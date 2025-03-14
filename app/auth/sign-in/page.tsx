@@ -2,6 +2,7 @@
 import {FC} from "react";
 import {Button} from "@/libs/design-system/ui/button/button";
 import {TextInput} from "@/libs/design-system/ui/text-input/text-input";
+import Link from "next/link";
 
 const AuthSignInPage: FC = () => {
   return (
@@ -9,7 +10,9 @@ const AuthSignInPage: FC = () => {
       <div className='relative'>
 
         <button className='absolute text-body1Bold right-1/2 top-8  translate-x-1/2'>
-          LoftlyLove.
+          <Link href="/">
+            LoftlyLove.
+          </Link>
         </button>
         <img className='h-screen' src="/images/loftlyLove-auth.png"/>
       </div>

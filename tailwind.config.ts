@@ -57,8 +57,8 @@ const config: Config = {
     },
     extend: {
       fontFamily: {
-        sans: ['var(--font-outfit)'],
-        mono: ['var(--font-outfit)'],
+        sans: ['var(--font-inter)'],
+        mono: ['var(--font-inter)'],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
